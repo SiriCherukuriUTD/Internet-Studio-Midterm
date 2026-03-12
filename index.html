@@ -2,15 +2,63 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Website Template</title>
+	<title>Siri Cherukuri Resume</title> <!--Internet Studio Midterm 2026-->
 	<link rel="stylesheet" href="./assets/css/styles.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+	<style>
+		body, html {
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color:black
+		}
+		img.background {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -1;
+		}
+		.overlay h1 {
+			font-family: "londrina shadow";
+			font-size: 3rem;
+			font-weight: 600;
+		}
+		.overlay h2 {
+			font-family: "bitter";
+			font-weight: 500;
+		}
+	</style>
 </head>
 <body>
+	<img src="assets/img/background.png" class="background" alt="Color background">
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
+	<div class="overlay container">
+		<h1>Siri Cherukuri</h1>
+		<p>Hey Siri? That's me! My name is Siri Cherukuri and I am a sophmore in college at the University of Texas at Dallas (UTD). My major is ATEC and I am interested in pursuing a future in design.</p>
+		<h2>Education</h2>
+		<ul>
+			<li>Heritage High School, graduated May 2024</li>
+			<li>University of Texas at Dallas (UTD), enrolled August 2024-NOW</li>
+		</ul>
+		<h2>Skills & Awards</h2>
+		<ul>
+			<li>Hardworking, Adaptable, Innovative</li>
+			<li>Adobe</li>
+			<li>Rhino</li>
+			<li>Academic Excellence Scholarship</li>
+			<li>Design Certificate Program</li>
+		</ul>
+		<h2>Employment</h2>
+		<p>Status: Unemployed, Job Searching</p>
+		<a href= mailto:sxc230129@utdallas.edu>Contact me!</a>
+	</div>
 
 	<script src="./assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
 </html>

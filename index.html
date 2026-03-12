@@ -13,7 +13,7 @@
 
 	<style>
 		body, html {
-			font-family: "Bitter, 'Times New Roman', Times, serif";
+			font-family: "Bitter", "Times New Roman", Times, serif;
 			color:black
 		}
 		img.background {
@@ -24,45 +24,79 @@
 		z-index: -1;
 		}
 		.overlay h1 {
-			font-family: "londrina shadow";
+			font-family: "Londrina Shadow";
 			font-size: 3rem;
 			font-weight: 600;
 		}
 		.overlay h2 {
-			font-family: "bitter";
+			font-family: "Bitter";
 			font-weight: 500;
+		}
+		.overlay h3 {
+			font-family: "Bitter";
+			font-weight: 500;
+			text-align: center;
+		}
+		img {
+            width: 100%;
+        }
+		footer {
+			font-family: "Bitter";
 		}
 	</style>
 </head>
 <body>
-	<img src="assets/img/background.png" class="background" alt="Color background">
+	<img src="assets/img/background.png" class="background" alt="Pretty Background">
 
 	<div class="overlay container">
 		<div class="row">
         <div class="col text-center">
             <h1 class="mt-5 pb-3 mb-1 border-bottom border-dark">Siri Cherukuri</h1>
             <div class="mb-4 border-bottom border-dark"></div>
-			<p>Hey Siri? That's me! My name is Siri Cherukuri and I am a sophmore in college at the University of Texas at Dallas (UTD). My major is ATEC and I am interested in pursuing a future in design.</p>
+			<p>Hey Siri? That's me! My name is Siri Cherukuri and I am a sophmore in college at the University of Texas at Dallas (UTD). My major is ATEC and I am interested in pursuing a future in design. Continue below to see a little bit about me!</p>
         </div>
         </div>
-		<h2>Education</h2>
-		<ul>
-			<li>Heritage High School, graduated May 2024</li>
-			<li>University of Texas at Dallas (UTD), enrolled August 2024-NOW</li>
-		</ul>
-		<h2>Skills & Awards</h2>
-		<ul>
-			<li>Hardworking, Adaptable, Innovative</li>
-			<li>Adobe Creative Suite</li>
-			<li>Rhino 3D Modeling</li>
-			<li>Academic Excellence Scholar</li>
-			<li>Certificate Program in Applied Experience Design and Research</li>
-		</ul>
-		<h2>Employment</h2>
-		<p>STATUS: Unemployed, Job Searching</p>
-		<a href= mailto:sxc230129@utdallas.edu>Contact me!</a>
-	</div>
 
+    	<div class="row my-4">
+   	 	<div class="col-md-6">
+        <div class="border-top border-dark pt-2"></div>
+        	<h2>Education</h2>
+            <ul>
+				<li>Heritage High School, graduated May 2024</li>
+				<li>University of Texas at Dallas (UTD), enrolled August 2024-NOW</li>
+			</ul>
+			<h2>Skills & Awards</h2>
+			<ul>
+				<li>Hardworking, Adaptable, Innovative</li>
+				<li>Adobe Creative Suite</li>
+				<li>Rhino 3D Modeling</li>
+				<li>Academic Excellence Scholar</li>
+				<li>Certificate Program in Applied Experience Design and Research</li>
+			</ul>
+			<h2>Employment</h2>
+			<p>STATUS: Unemployed, Job Searching</p>
+			<a href= mailto:sxc230129@utdallas.edu>CONTACT ME!</a>
+        </div>
+ 
+		<div class="col-md-6 text-center">
+		<div class="border-top border-dark pt-2"></div>
+            <h3>Work By Me</h3>
+            <img src="assets/img/digital drawing.jpg" alt="artwork" class="img-fluid">
+        </div>
+		</div>
+        </div>
+
+		<footer class="container">
+		<div class="row my-5">
+			<div class="col text-center">
+			<div class="border-top border-dark pt-2">
+				<small>Made by Siri Cherukuri</small>
+			</div>
+			</div>
+		</div>
+		</footer>
+
+	</div>
 	<script src="./assets/js/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
